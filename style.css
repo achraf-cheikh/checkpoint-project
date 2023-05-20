@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin-top: 0;
+  margin-left: 0;
+}
+.listtop {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  list-style: none;
+  background-color: #f2f0f1;
+  margin-top: 0px;
+  position: fixed;
+  top: 0px;
+  z-index: 5;
+}
+.listtop li {
+  margin-left: 20px;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 25px;
+  color: rgb(117, 24, 24);
+}
+.listtop li:hover {
+  color: cadetblue;
+}
+#number {
+  margin-right: 50px;
+  margin-left: 0px;
+  letter-spacing: 1px;
+}
+#logowhat {
+  width: 30px;
+  height: 25px;
+  margin-top: 7px;
+}
+nav {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 50px;
+  z-index: 5;
+  background-color: #ffffff;
+}
+#logo {
+  width: 300px;
+  height: 110px;
+}
+.navlist {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  list-style: none;
+}
+.navlist li:hover {
+  cursor: pointer;
+  color: cadetblue;
+  text-decoration: overline;
+}
+.sec1 {
+  display: flex;
+  position: relative;
+}
+#imge {
+  margin-top: 180px;
+  width: 90%;
+  height: 600px;
+  margin-left: 80px;
+}
+.container {
+  width: 440px;
+  height: 400px;
+  margin-top: 280px;
+  margin-left: 150px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+}
+.container h1 {
+  margin-top: 5px;
+  margin-bottom: 4px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  color: #dbd4d4;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.container h3 {
+  color: #dbd4d4;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 15px;
+  padding-left: 15px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+}
+.set {
+  width: 300px;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 0px;
+  padding-top: 0px;
+  background-color: #dbd4d4;
+}
+.pickup {
+  width: 100%;
+  display: flex;
+}
+
+.pickup1 h4 {
+  color: #dbd4d4;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 15px;
+  padding-left: 15px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.pickup1 form {
+  width: 100px;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-top: 0px;
+  background-color: #dbd4d4;
+}
+.pickup2 h4 {
+  color: #dbd4d4;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 15px;
+  padding-left: 100px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.pickup2 form {
+  width: 50px;
+  font-size: 15px;
+  margin-left: 90px;
+  margin-top: 0px;
+  background-color: #dbd4d4;
+}
+
+.dropoff {
+  width: 100%;
+  display: flex;
+}
+.dropoff1 h4 {
+  color: #dbd4d4;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 15px;
+  padding-left: 15px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.dropoff1 form {
+  width: 100px;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-top: 0px;
+  background-color: #dbd4d4;
+}
+.dropoff2 h4 {
+  color: #dbd4d4;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 15px;
+  padding-left: 100px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.dropoff2 form {
+  width: 50px;
+  font-size: 15px;
+  margin-left: 90px;
+  margin-top: 0px;
+  background-color: #dbd4d4;
+}
+#btn1 {
+  margin-left: 200px;
+  width: 200px;
+  height: 50px;
+  background-color: rgb(238, 255, 0);
+  color: #252424;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+  border: solid rgb(66, 73, 25);
+}
+.Sec2Div1 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Sec2Div1 p {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-evenly;
+}
